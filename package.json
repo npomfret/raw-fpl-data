@@ -1,0 +1,17 @@
+{
+  "name": "raw-fpl-data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "collect": "tsc && node dist/index.js",
+    "collect:resume": "tsc && node dist/index.js --resume"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "typescript": "^5.5.3"
+  },
+  "private": true
+}
